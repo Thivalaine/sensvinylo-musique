@@ -1,0 +1,80 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 50px;
+    gap: 15px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        margin: 25px;
+    }
+
+    &Left {
+        display: flex;
+        align-items: center;
+
+        .logoContainer {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            
+            p, h2, svg {
+                margin: 0;
+            }
+
+            .logo {
+                width: 75px;
+                height: 75px;
+                border-radius: 999px;
+            }
+
+            .socialNetworks {
+                padding: 0;
+                margin: 0;
+                display: flex;
+                gap: 15px;
+                
+                svg {
+                    color: rgb(24, 24, 27);
+
+                    &:hover {
+                        color: blue;
+                    }
+                }
+            }
+        }
+    
+    }
+    &Right {
+        display: flex;
+        gap: 60px;
+
+        @media (max-width: 768px) {
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .list {
+           list-style-type: none; 
+           display: flex;
+           flex-direction: column;
+           gap: 15px;
+           padding: 0;
+
+           &Title {
+            font-weight: 500;
+
+           }
+
+           a {
+                text-decoration: none;
+                color: black;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+           }
+        }
+    }
+}

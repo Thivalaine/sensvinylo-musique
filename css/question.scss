@@ -1,0 +1,13 @@
+.question {
+    padding: 15px;
+
+    &Arguments {
+        display: flex;
+        gap: 60px;
+        flex-wrap: wrap;
+
+        & div {
+            flex: 1 0 calc(33.3% - 60px);
+        }
+    }
+}
