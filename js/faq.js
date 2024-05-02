@@ -1,7 +1,7 @@
 export function faq() {
     const faqItems = document.querySelectorAll('.faqItem'); 
 
-    faqItems.forEach(faqItem => {
+    for (const faqItem of faqItems) {
         const faqToggle = faqItem.querySelector('.faqToggle');
         const faqAnswer = faqItem.querySelector('.faqAnswer');
         const faqGroup = faqItem.querySelector('.faqGroup');
@@ -10,5 +10,5 @@ export function faq() {
             faqAnswer.classList.toggle('show');
             faqToggle.classList.toggle('active');
         });
-    });
+    }
 }
