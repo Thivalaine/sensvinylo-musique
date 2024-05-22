@@ -1,0 +1,215 @@
+body {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+main {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+@media (max-width: 768px) {
+  main {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.homepageNav {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-right: 40px;
+  height: 100%;
+  border-radius: 999px;
+}
+.homepageNav .logo {
+  width: 75px;
+  height: 75px;
+  border-radius: 999px;
+}
+.homepageNav .list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.homepageNav .list li {
+  font-size: 1.2rem;
+  font-weight: 500;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.homepageNav .list li a {
+  text-decoration: none;
+  color: black;
+}
+.homepageNav .list li a:visited {
+  color: black;
+}
+.homepageNav .list li:hover {
+  background-color: lightgray;
+}
+@media (max-width: 768px) {
+  .homepageNav .list li {
+    display: none;
+  }
+}
+.homepageNav .listResponsive {
+  position: fixed;
+  width: 90%;
+  height: 100vh;
+  top: 60px;
+  margin-right: 15px;
+  bottom: 0;
+  z-index: 999;
+  right: -100%;
+  background-color: white;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.homepageNav .listResponsive.show {
+  right: 0;
+  opacity: 1;
+}
+.homepageNav .list .hamburger {
+  display: none;
+  cursor: pointer;
+  position: relative;
+}
+.homepageNav .list .hamburger.active span:nth-child(1) {
+  position: absolute;
+  top: 23px;
+  transform: translateY(10px) rotate(-315deg);
+}
+.homepageNav .list .hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.homepageNav .list .hamburger.active span:nth-child(3) {
+  position: absolute;
+  bottom: 20px;
+  transform: translateY(-10px) rotate(315deg);
+}
+.homepageNav .list .hamburger span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin: 5px;
+  transition: all 0.3s;
+}
+@media (max-width: 768px) {
+  .homepageNav .list .hamburger span {
+    width: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .homepageNav .list .hamburger {
+    display: flex;
+  }
+}
+.homepage .welcome {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.homepage .welcomeLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+  padding-left: 15px;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+@media (max-width: 768px) {
+  .homepage .welcomeLeft {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    text-align: center;
+  }
+}
+.homepage .welcomeLeft h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.homepage .welcomeLeft p {
+  font-size: 1.3em;
+  max-width: 700px;
+}
+.homepage .welcomeLeft .buttonContainer {
+  display: flex;
+  gap: 15px;
+}
+@media (max-width: 768px) {
+  .homepage .welcomeLeft .buttonContainer {
+    gap: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .homepage .welcomeLeft .buttonContainer {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+.homepage .welcomeLeft .buttonContainer button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  background-color: #595959;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.homepage .welcomeLeft .buttonContainer button:hover {
+  background-color: grey;
+}
+.homepage .welcomeRight {
+  height: 500px;
+  -webkit-clip-path: polygon(10% 0, 0 100%, 100% 100%, 100% 0);
+          clip-path: polygon(10% 0, 0 100%, 100% 100%, 100% 0);
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .homepage .welcomeRight {
+    position: inherit;
+    -webkit-clip-path: none;
+            clip-path: none;
+    width: 100%;
+    height: 250px;
+  }
+}
+@media (max-width: 768px) {
+  .homepage .welcome {
+    flex-direction: column;
+  }
+}
+.homepage .welcome img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=homepage.css.map */
