@@ -169,7 +169,7 @@
         </div>
     </section>
 </main>
-<?phpphp include 'footer.php'; ?>
+<?php include 'footer.php'; ?>
 <script type="module" src="js/index.js"></script>
 </body>
 </html>
