@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Primary Meta Tags -->
-    <title>Services offerts par Sensvinylo - Votre destination pour les disques vinyles</title>
-    <meta name="title" content="Services offerts par Sensvinylo - Votre destination pour les disques vinyles" />
-    <meta name="description" content="Découvrez une gamme complète de services conçus pour les amateurs de vinyle, des novices aux collectionneurs chevronnés." />
+    <title>Sensvinylo - Services offerts | La destination des vinyles</title>
+    <meta name="title" content="Sensvinylo - Services offerts | La destination des vinyles" />
+    <meta name="description" content="Découvrez les services de Sensvinylo, votre destination pour les vinyles, conçus pour les amateurs et les collectionneurs chevronnés." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://sensvinylo-musique.tech/services.html" />
-    <meta property="og:title" content="Services offerts par Sensvinylo - Votre destination pour les disques vinyles" />
-    <meta property="og:description" content="Découvrez une gamme complète de services conçus pour les amateurs de vinyle, des novices aux collectionneurs chevronnés." />
+    <meta property="og:title" content="Sensvinylo - Services offerts | La destination des vinyles" />
+    <meta property="og:description" content="Découvrez les services de Sensvinylo, votre destination pour les vinyles, conçus pour les amateurs et les collectionneurs chevronnés." />
     <meta property="og:image" content="assets/images/logo.jpg" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://sensvinylo-musique.tech/services.html" />
-    <meta property="twitter:title" content="Services offerts par Sensvinylo - Votre destination pour les disques vinyles" />
-    <meta property="twitter:description" content="Découvrez une gamme complète de services conçus pour les amateurs de vinyle, des novices aux collectionneurs chevronnés." />
+    <meta property="twitter:title" content="Sensvinylo - Services offerts | La destination des vinyles" />
+    <meta property="twitter:description" content="Découvrez les services de Sensvinylo, votre destination pour les vinyles, conçus pour les amateurs et les collectionneurs chevronnés." />
     <meta property="twitter:image" content="assets/images/logo.jpg" />
 
     <script type="application/ld+json">
@@ -34,7 +34,7 @@
                 },
                 "availableChannel": {
                     "@type": "ServiceChannel",
-                    "serviceUrl": "https://www.sensvinylo.com/services.html"
+                    "serviceUrl": "https://sensvinylo-musique.tech/services.html"
                 }
             },
             {
@@ -47,7 +47,7 @@
                 },
                 "availableChannel": {
                     "@type": "ServiceChannel",
-                    "serviceUrl": "https://www.sensvinylo.com/services.html"
+                    "serviceUrl": "https://sensvinylo-musique.tech/services.html"
                 }
             },
             {
@@ -60,7 +60,7 @@
                 },
                 "availableChannel": {
                     "@type": "ServiceChannel",
-                    "serviceUrl": "https://www.sensvinylo.com/services.html"
+                    "serviceUrl": "https://sensvinylo-musique.tech/services.html"
                 }
             },
             {
@@ -73,12 +73,13 @@
                 },
                 "availableChannel": {
                     "@type": "ServiceChannel",
-                    "serviceUrl": "https://www.sensvinylo.com/services.html"
+                    "serviceUrl": "https://sensvinylo-musique.tech/services.html"
                 }
             }
         ]
     </script>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="canonical" href="https://sensvinylo-musique.tech/services.html">
     <link rel="stylesheet" href="css/index.min.css" />
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -90,7 +91,7 @@
 <main>
     <section class="servicesOverview">
         <h1>Nos Services chez Sensvinylo</h1>
-        <p>Découvrez une gamme complète de services conçus pour les amateurs de vinyle, des novices aux collectionneurs chevronnés.</p>
+        <p>Découvrez les services de Sensvinylo, votre destination pour les vinyles, conçus pour les amateurs et les collectionneurs chevronnés.</p>
     </section>
     <section class="serviceDetails">
         <article class="service">
