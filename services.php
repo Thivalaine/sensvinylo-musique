@@ -10,14 +10,14 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://sensvinylo-musique.tech/services.html" />
+    <meta property="og:url" content="https://sensvinylo-musique.tech/services.php" />
     <meta property="og:title" content="Sensvinylo - Services offerts | La destination des vinyles" />
     <meta property="og:description" content="Découvrez les services de Sensvinylo, votre destination pour les vinyles, conçus pour les amateurs et les collectionneurs chevronnés." />
     <meta property="og:image" content="assets/images/logo.jpg" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://sensvinylo-musique.tech/services.html" />
+    <meta property="twitter:url" content="https://sensvinylo-musique.tech/services.php" />
     <meta property="twitter:title" content="Sensvinylo - Services offerts | La destination des vinyles" />
     <meta property="twitter:description" content="Découvrez les services de Sensvinylo, votre destination pour les vinyles, conçus pour les amateurs et les collectionneurs chevronnés." />
     <meta property="twitter:image" content="assets/images/logo.jpg" />
@@ -34,7 +34,7 @@
                 },
                 "availableChannel": {
                     "@type": "ServiceChannel",
-                    "serviceUrl": "https://sensvinylo-musique.tech/services.html"
+                    "serviceUrl": "https://sensvinylo-musique.tech/services.php"
                 }
             },
             {
@@ -47,7 +47,7 @@
                 },
                 "availableChannel": {
                     "@type": "ServiceChannel",
-                    "serviceUrl": "https://sensvinylo-musique.tech/services.html"
+                    "serviceUrl": "https://sensvinylo-musique.tech/services.php"
                 }
             },
             {
@@ -60,7 +60,7 @@
                 },
                 "availableChannel": {
                     "@type": "ServiceChannel",
-                    "serviceUrl": "https://sensvinylo-musique.tech/services.html"
+                    "serviceUrl": "https://sensvinylo-musique.tech/services.php"
                 }
             },
             {
@@ -73,13 +73,13 @@
                 },
                 "availableChannel": {
                     "@type": "ServiceChannel",
-                    "serviceUrl": "https://sensvinylo-musique.tech/services.html"
+                    "serviceUrl": "https://sensvinylo-musique.tech/services.php"
                 }
             }
         ]
     </script>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <link rel="canonical" href="https://sensvinylo-musique.tech/services.html">
+    <link rel="canonical" href="https://sensvinylo-musique.tech/services.php">
     <link rel="stylesheet" href="css/index.min.css" />
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">

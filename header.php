@@ -1,6 +1,6 @@
 <header>
     <nav class="navbar">
-        <a href="index.html">
+        <a href="index.php">
             <img class="logo" src="assets/images/logo.webp" alt="Logo Sensvinylo" title="Sensvinylo">
         </a>
         <ul class="list">
