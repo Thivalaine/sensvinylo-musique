@@ -1,0 +1,59 @@
+.contact {
+    &Form {
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 1rem;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(black, 0.1);
+
+            .groupField {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 1rem;
+            }
+
+            h2 {
+                margin-bottom: 1rem;
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: black;
+            }
+
+            input {
+                margin-bottom: 1rem;
+                border: 1px solid black;
+                border-radius: 5px;
+                font-size: 1rem;
+                color: black;
+                padding: .5rem;
+            }
+
+            textarea {
+                margin-bottom: 1rem;
+                border: 1px solid black;
+                border-radius: 5px;
+                font-size: 1rem;
+                color: black;
+            }
+
+            button {
+                width: 100%;
+                padding: 0.5rem;
+                border: none;
+                border-radius: 5px;
+                font-size: 1rem;
+                font-weight: 700;
+                color: white;
+                background-color: black;
+                cursor: pointer;
+                
+                &:hover {
+                    background-color: darken(black, 10%);
+                }
+            }
+        }
+    }
+}
