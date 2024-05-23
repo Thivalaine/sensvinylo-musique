@@ -48,7 +48,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 </head>
 <body class="contactPage">
-<? include 'header.php'; ?>
+<?php include 'header.php'; ?>
 <main>
     <section class="contactFormSection">
         <h1>Contactez Sensvinylo</h1>
@@ -73,7 +73,7 @@
         <p><strong>Email:</strong> contact@sensvinylo.com</p>
     </section>
 </main>
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>
 <script type="module" src="js/index.js"></script>
 </body>
 </html>

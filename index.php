@@ -51,7 +51,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 </head>
 <body class="homepage">
-<?php include 'header.php'; ?>
+<?phpphp include 'header.php'; ?>
 <main>
     <section class="welcome">
         <div class="welcomeLeft">
@@ -169,7 +169,7 @@
         </div>
     </section>
 </main>
-<?php include 'footer.php'; ?>
+<?phpphp include 'footer.php'; ?>
 <script type="module" src="js/index.js"></script>
 </body>
 </html>

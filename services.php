@@ -87,7 +87,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 </head>
 <body class="servicesPage">
-<? include 'header.php'; ?>
+<?php include 'header.php'; ?>
 <main>
     <section class="servicesOverview">
         <h1>Nos Services chez Sensvinylo</h1>
@@ -112,7 +112,7 @@
         </article>
     </section>
 </main>
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>
 <script type="module" src="js/index.js"></script>
 </body>
 </html>

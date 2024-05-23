@@ -48,7 +48,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 </head>
 <body class="aboutPage">
-<? include 'header.php'; ?>
+<?php include 'header.php'; ?>
 <main>
     <section class="about">
         <div class="aboutContent">
@@ -64,7 +64,7 @@
         </div>
     </section>
 </main>
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>
 <script type="module" src="js/index.js"></script>
 </body>
 </html>
