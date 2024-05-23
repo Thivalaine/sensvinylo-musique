@@ -51,7 +51,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 </head>
 <body class="homepage">
-<?phpphp include 'header.php'; ?>
+<?php include 'header.php'; ?>
 <main>
     <section class="welcome">
         <div class="welcomeLeft">
