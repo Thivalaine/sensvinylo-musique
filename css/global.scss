@@ -1,0 +1,26 @@
+body {
+    position: relative;
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    @media (max-width: 768px) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+main {
+    margin-left: 4rem;
+    margin-right: 4rem;
+
+    @media (max-width: 768px) {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}

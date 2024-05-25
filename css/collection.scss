@@ -1,0 +1,61 @@
+.collection {
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: center;
+    // margin: 0 auto;
+    // max-width: 1200px;
+    // padding: 0 20px;
+
+    &List {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    &Item {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 370px;
+        max-width: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        h3 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        p {
+            margin: 0;
+            font-size: 1rem;
+            color: #777;
+        }
+
+        .buttonDetails {
+            background-color: white;
+            border-radius: 20px;
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            width: 200px;
+            margin: 0 auto;
+        }
+    }
+}

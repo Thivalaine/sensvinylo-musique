@@ -30,4 +30,13 @@
 
 		return $article;
 	}
+
+	function getItemsInCollection() {
+		$co = connexionBdd();
+		$requete = $co->prepare("SELECT * FROM collection");
+		$requete->execute();
+		$items = $requete->fetchAll(PDO::FETCH_ASSOC);
+
+		return $items;
+	}
 ?>

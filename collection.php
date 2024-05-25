@@ -34,7 +34,7 @@
                 },
                 "availableChannel": {
                     "@type": "ServiceChannel",
-                    "serviceUrl": "https://sensvinylo-musique.tech/services.php"
+                    "serviceUrl": "https://sensvinylo-musique.tech/collection.php"
                 }
             },
             {
@@ -47,7 +47,7 @@
                 },
                 "availableChannel": {
                     "@type": "ServiceChannel",
-                    "serviceUrl": "https://sensvinylo-musique.tech/services.php"
+                    "serviceUrl": "https://sensvinylo-musique.tech/collection.php"
                 }
             },
             {
@@ -60,7 +60,7 @@
                 },
                 "availableChannel": {
                     "@type": "ServiceChannel",
-                    "serviceUrl": "https://sensvinylo-musique.tech/services.php"
+                    "serviceUrl": "https://sensvinylo-musique.tech/collection.php"
                 }
             },
             {
@@ -73,63 +73,51 @@
                 },
                 "availableChannel": {
                     "@type": "ServiceChannel",
-                    "serviceUrl": "https://sensvinylo-musique.tech/services.php"
+                    "serviceUrl": "https://sensvinylo-musique.tech/collection.php"
                 }
             }
         ]
     </script>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <link rel="canonical" href="https://sensvinylo-musique.tech/services.php">
+    <link rel="canonical" href="https://sensvinylo-musique.tech/collection.php">
     <link rel="stylesheet" href="css/index.min.css" />
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome.min.css" />  
 </head>
-<!-- https://vinylcollector.store/blogs/news -->
-<body class="blog">
+<body class="collection">
     <?php 
         include 'header.php'; 
-        require('db/fonctions.php');
-        $articles = getArticles();
+        require_once 'db/fonctions.php';
     ?>
-    <main class="blogContainer">
-            <aside class="blogSummary">
-                <h2>Articles récents</h2>
-                <ul class="list">
-                    <?php
-                        foreach($articles as $article) {
-                    ?>
-                        <li>
-                            <a class="link" href="#<?php echo $article['id']; ?>"><?php echo $article['title']; ?></a>
-                        </li>
-                    <?php
-                        }
-                    ?>
-                </ul>
-            </aside>
-            <section class="blogList">
-                <h1>Nouveaux articles</h1>
-                <?php
-                    foreach($articles as $article) {
+    <main class="collectionContainer">
+        <header class="collectionHeader">
+            <h1>Notre Collection</h1>
+        </header>
+        <section class="collectionList">
+            <?php
+                $items = getItemsInCollection();
+
+                foreach ($items as $item) {
                 ?>
-                <article class="article" id="1">
-                    <header class="articleHeader">
-                        <img class="illustration" src="<?php echo $article['illustration']; ?>" alt="Sensvinylo - <?php echo $article['title']; ?>" />
-                    </header>
-                    <div class="articleContent">
-                        <h2><?php echo $article['title']; ?></h2>
-                        <time datetime="<?php echo $article['date']; ?>">Date de publication : <?php echo date('d/m/Y', strtotime($article['date'])); ?></time>
-                        <p class="paragraph"><?php echo $article['summary']; ?></p>
-                        <a class="link" href="article.php?id=<?php echo $article['id']; ?>">Lire la suite</a>
-                    </div>
-                </article>
+                    <article class="collectionItem">
+                        <img src="<?= $item['illustration'] ?>" alt="Sensvinylo - <?= $item['title'] ?>">
+                        <div class="collectionItemDetails">
+                            <h2><?= $item['title'] ?></h2>
+                            <p><?= $item['price'] ?>$</p>
+                            <a href="item.php?id=<?= $item['id'] ?>" class="link">Voir plus</a>
+                        </div>
+                    </article>
                 <?php
-                    }
-                ?>
-            </section>
+                }
+            ?>
+        </section>
     </main>
     <?php include 'footer.php'; ?>
     <script type="module" src="js/index.js"></script>
+    <script src="js/all.min.js"></script>
 </body>
 </html>
+
