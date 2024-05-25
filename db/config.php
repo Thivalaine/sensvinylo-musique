@@ -1,6 +1,6 @@
 <?php
-    $server = "db";
-	$user = "root";
-	$pass = "root";
-	$dbName = "sensvinylo";
+    $server = "server";
+    $user = "user";
+    $pass = "pass";
+    $dbName = "dbname";
 ?>
