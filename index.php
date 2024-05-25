@@ -37,7 +37,7 @@
                 "name": "Sensvinylo",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "https://sensvinylo-musique.tech/assets/images/logo.jpg"
+                    "url": "https://sensvinylo-musique.tech/assets/images/logo.webp"
                 }
             }
         }
@@ -52,6 +52,8 @@
 </head>
 <body class="homepage">
 <?php include 'header.php'; ?>
+<?php require 'db/fonctions.php'; ?>
+<?php connexionBdd(); ?>
 <main>
     <section class="welcome">
         <div class="welcomeLeft">

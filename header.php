@@ -1,4 +1,4 @@
-<header>
+<header class="header">
     <nav class="navbar">
         <a href="index.php">
             <img class="logo" src="assets/images/logo.webp" alt="Logo Sensvinylo" title="Sensvinylo">
@@ -7,6 +7,8 @@
             <li><a class="link" href="index.php">Accueil</a></li>
             <li><a class="link" href="about.php">À propos</a></li>
             <li><a class="link" href="services.php">Services</a></li>
+            <li><a class="link" href="blog.php">Blog</a></li>
+            <li><a class="link" href="collections.php">Collections</a></li>
             <li><a class="link" href="contact.php">Contact</a></li>
             <li class="hamburger">
                 <a href="#" title="Menu">
@@ -20,6 +22,8 @@
             <li><a class="link" href="index.php">Accueil</a></li>
             <li><a class="link" href="about.php">À propos</a></li>
             <li><a class="link" href="services.php">Services</a></li>
+            <li><a class="link" href="blog.php">Blog</a></li>
+            <li><a class="link" href="collections.php">Collections</a></li>
             <li><a class="link" href="contact.php">Contact</a></li>
         </ul>
     </nav>

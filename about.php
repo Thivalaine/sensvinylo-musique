@@ -13,14 +13,14 @@
     <meta property="og:url" content="https://sensvinylo-musique.tech/about.php" />
     <meta property="og:title" content="Sensvinylo - À propos | La passion des vinyles" />
     <meta property="og:description" content="Découvrez l'histoire de Sensvinylo, la passion derrière notre collection de vinyles. Apprenez-en plus sur notre mission et notre engagement envers la qualité." />
-    <meta property="og:image" content="assets/images/logo.jpg" />
+    <meta property="og:image" content="assets/images/logo.webp" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://sensvinylo-musique.tech/about.php" />
     <meta property="twitter:title" content="Sensvinylo - À propos | La passion des vinyles" />
     <meta property="twitter:description" content="Découvrez l'histoire de Sensvinylo, la passion derrière notre collection de vinyles. Apprenez-en plus sur notre mission et notre engagement envers la qualité." />
-    <meta property="twitter:image" content="assets/images/logo.jpg" />
+    <meta property="twitter:image" content="assets/images/logo.webp" />
 
     <script type="application/ld+json">
         {
@@ -34,7 +34,7 @@
                 "name": "Sensvinylo",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "https://sensvinylo-musique.tech/assets/images/logo.jpg"
+                    "url": "https://sensvinylo-musique.tech/assets/images/logo.webp"
                 }
             }
         }
