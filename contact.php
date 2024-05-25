@@ -57,16 +57,24 @@
                 brefs délais.</p>
             <form action="submit_form.php" method="post">
                 <div class="groupField">
+                    <label for="object">Objet:</label>
+                    <select class="field">
+                        <option value="question">Question</option>
+                        <option value="demande">Demande spéciale</option>
+                        <option value="commentaire">Commentaire</option>
+                    </select>
+                </div>
+                <div class="groupField">
                     <label for="name">Nom:</label>
-                    <input type="text" id="name" name="name" required>
+                    <input class="field" type="text" id="name" name="name" required>
                 </div>
                 <div class="groupField">
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input class="field" type="email" id="email" name="email" required>
                 </div>
                 <div class="groupField">
                     <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="6" required></textarea>
+                    <textarea class="field" id="message" name="message" rows="6" required></textarea>
                 </div>
                 <button type="submit">Envoyer</button>
             </form>

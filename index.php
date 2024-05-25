@@ -95,7 +95,7 @@
                     <p>Restez en avance sur la courbe avec les derniers albums et les sorties d'artistes. Nos nouveautés apportent des sons frais directement sur votre tourne-disque.</p>
                 </li>
             </ul>
-            <a class="buttonDetails" href="#">Obtenir des détails</a>
+            <a class="buttonDetails" href="#">Voir notre collection</a>
         </div>
         <div class="descriptionRight">
             <img src="assets/images/description.webp" alt="Collection de vinyles Sensvinylo">

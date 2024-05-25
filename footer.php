@@ -53,16 +53,16 @@
         </ul>
         <ul class="list">
             <li class="listTitle">Entreprise</li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">À propos de nous</a></li>
+            <li><a href="blog.php">Blog</a></li>
+            <li><a href="about.php">À propos de nous</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">Emplois</a></li>
         </ul>
         <ul class="list">
             <li class="listTitle">Juridique</li>
-            <li><a href="#">Politique de confidentialité</a></li>
-            <li><a href="#">Conditions d'utilisation</a></li>
-            <li><a href="#">Politique de cookies</a></li>
+            <li><a href="privacy_policy.php">Politique de confidentialité</a></li>
+            <li><a href="terms_of_use.php">Conditions d'utilisation</a></li>
+            <li><a href="cookie_policy.php">Politique de cookies</a></li>
         </ul>
     </div>
 </footer>

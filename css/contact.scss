@@ -1,5 +1,9 @@
 .contact {
     &Form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
         form {
             display: flex;
             flex-direction: column;
@@ -8,6 +12,8 @@
             background-color: white;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(black, 0.1);
+            width: 750px;
+            max-width: 100%;
 
             .groupField {
                 display: flex;
@@ -22,7 +28,7 @@
                 color: black;
             }
 
-            input {
+            .field {
                 margin-bottom: 1rem;
                 border: 1px solid black;
                 border-radius: 5px;
@@ -40,7 +46,8 @@
             }
 
             button {
-                width: 100%;
+                width: 100px;
+                margin: 0 auto;
                 padding: 0.5rem;
                 border: none;
                 border-radius: 5px;

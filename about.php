@@ -47,20 +47,52 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 </head>
-<body class="aboutPage">
+<body class="about">
 <?php include 'header.php'; ?>
-<main>
-    <section class="about">
-        <div class="aboutContent">
-            <h1>À propos de Sensvinylo</h1>
+<main class="aboutContainer">
+    <section class="aboutHeader">
+        <h1>À propos de Sensvinylo</h1>
+    </section>
+    <section class="aboutContent">
+        <div class="aboutText">
             <p>Nous sommes une entreprise passionnée par la musique et dédiée à la promotion du vinyle comme une expérience audio authentique et de haute qualité. Fondée en 2023, notre mission est de partager notre amour pour les disques vinyles et d'enrichir votre collection avec des éditions rares et de qualité supérieure.</p>
             <div class="aboutDetails">
                 <h2>Notre Philosophie</h2>
                 <p>Chez Sensvinylo, nous croyons que la musique doit être ressentie et non seulement entendue. Nous nous engageons à fournir des vinyles qui non seulement sonnent bien, mais qui sont aussi des œuvres d'art à part entière.</p>
             </div>
+            <div class="aboutDetails">
+                <h2>Notre Histoire</h2>
+                <p>SensVinylo est né de la passion pour la musique et du désir de partager cette passion avec le monde. Depuis notre création en 2023, nous nous efforçons de fournir une collection exceptionnelle de vinyles pour les amateurs de musique de tous horizons. Notre mission est de redonner vie à l'expérience d'écoute authentique et chaleureuse que seuls les vinyles peuvent offrir.</p>
+            </div>
+            <div class="aboutDetails">
+                <h2>Notre Mission</h2>
+                <p>Chez SensVinylo, notre mission est simple : offrir la meilleure sélection de vinyles, des conseils d'experts et un service client inégalé. Nous croyons que chaque vinyle raconte une histoire et nous nous engageons à vous aider à découvrir et à apprécier ces histoires uniques. Nous travaillons en étroite collaboration avec des collectionneurs, des artistes et des passionnés pour vous proposer des pièces rares et exclusives.</p>
+            </div>
         </div>
-        <div class="">
+        <div class="aboutImage">
             <img src="assets/images/philosophie.webp" alt="Vinyles Sensvinylo" />
+        </div>
+    </section>
+    <section class="aboutContent">
+        <div class="aboutText">
+            <h2>Notre Équipe</h2>
+            <div class="teamContainer">
+                <div class="teamMember">
+                    <img src="assets/images/about/Jean_Dupont.jpg" alt="Sensvinylo - Photo de Jean Dupont">
+                    <h3>Jean Dupont</h3>
+                    <p>Fondateur & CEO</p>
+                </div>
+                <div class="teamMember">
+                    <img src="assets/images/about/Marie_dubois.jpg" alt="Sensvinylo - Photo de Marie Dubois">
+                    <h3>Marie Dubois</h3>
+                    <p>Responsable Marketing</p>
+                </div>
+                <div class="teamMember">
+                    <img src="assets/images/about/Paul_martin.jpg" alt="Sensvinylo - Photo de Paul Martin">
+                    <h3>Paul Martin</h3>
+                    <p>Expert Vinyles</p>
+                </div>
+            </div>
         </div>
     </section>
 </main>
