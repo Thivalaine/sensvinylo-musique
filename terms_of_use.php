@@ -80,9 +80,9 @@
             <p>Pour toute question ou préoccupation concernant ces conditions d'utilisation, veuillez nous contacter à :</p>
             <p>
                 <strong>SensVinylo</strong><br>
-                Adresse : [votre adresse]<br>
-                E-mail : contact@sensvinylo.com<br>
-                Téléphone : 07 86 38 15 37
+                Adresse : 123 Rue de la Musique, Paris, France<br>
+                Téléphone : +33 1 23 45 67 89<br>
+                Email: contact@sensvinylo.com
             </p>
         </section>
     </main>
