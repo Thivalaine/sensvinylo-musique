@@ -44,12 +44,16 @@
         }
     </script>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <link rel="canonical" href="https://sensvinylo-musique.tech/article.php">
+    <?php
+    $id = $_GET['id'];
+    echo '<link rel="canonical" href="https://sensvinylo-musique.tech/article.php?id='.htmlspecialchars($id).'">';
+    ?>
     <link rel="stylesheet" href="css/index.min.css" />
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome.min.css" />  
 </head>
 <body class="article">
     <?php 
