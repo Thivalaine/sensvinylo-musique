@@ -4,24 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Primary Meta Tags -->
-    <title>SensVinylo - Conditions d'Utilisation | La destination des vinyles</title>
-    <meta name="title" content="SensVinylo - Conditions d'Utilisation | La destination des vinyles" />
-    <meta name="description" content="Découvrez les conditions d'utilisation de SensVinylo. Votre guide pour utiliser notre site de vinyles en toute confiance." />
+    <title>Sensvinylo - Conditions d'Utilisation | Règles et Politiques</title>
+    <meta name="title" content="Sensvinylo - Conditions d'Utilisation | Règles et Politiques" />
+    <meta name="description" content="Lisez les conditions d'utilisation de Sensvinylo. Découvrez nos règles et politiques pour une utilisation optimale de notre site et de nos services." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://sensvinylo-musique.tech/terms_of_use.php" />
-    <meta property="og:title" content="SensVinylo - Conditions d'Utilisation | La destination des vinyles" />
-    <meta property="og:description" content="Découvrez les conditions d'utilisation de SensVinylo. Votre guide pour utiliser notre site de vinyles en toute confiance." />
-    <meta property="og:image" content="https://sensvinylo-musique.tech/assets/images/logo.webp" />
+    <meta property="og:title" content="Sensvinylo - Conditions d'Utilisation | Règles et Politiques" />
+    <meta property="og:description" content="Lisez les conditions d'utilisation de Sensvinylo. Découvrez nos règles et politiques pour une utilisation optimale de notre site et de nos services." />
+    <meta property="og:image" content="assets/images/logo.webp" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://sensvinylo-musique.tech/terms_of_use.php" />
-    <meta property="twitter:title" content="SensVinylo - Conditions d'Utilisation | La destination des vinyles" />
-    <meta property="twitter:description" content="Découvrez les conditions d'utilisation de SensVinylo. Votre guide pour utiliser notre site de vinyles en toute confiance." />
-    <meta property="twitter:image" content="https://sensvinylo-musique.tech/assets/images/logo.webp" />
+    <meta property="twitter:title" content="Sensvinylo - Conditions d'Utilisation | Règles et Politiques" />
+    <meta property="twitter:description" content="Lisez les conditions d'utilisation de Sensvinylo. Découvrez nos règles et politiques pour une utilisation optimale de notre site et de nos services." />
+    <meta property="twitter:image" content="assets/images/logo.webp" />
 
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Sensvinylo - Conditions d'Utilisation | Règles et Politiques",
+            "description": "Lisez les conditions d'utilisation de Sensvinylo. Découvrez nos règles et politiques pour une utilisation optimale de notre site et de nos services.",
+            "url": "https://sensvinylo-musique.tech/terms_of_use.php",
+            "publisher": {
+                "@type": "Organization",
+                "name": "Sensvinylo",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://sensvinylo-musique.tech/assets/images/logo.webp"
+                }
+            }
+        }
+    </script>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="canonical" href="https://sensvinylo-musique.tech/terms_of_use.php">
     <link rel="stylesheet" href="css/index.min.css" />

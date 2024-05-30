@@ -4,24 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Primary Meta Tags -->
-    <title>SensVinylo - Politique de Cookies | La destination des vinyles</title>
-    <meta name="title" content="SensVinylo - Politique de Cookies | La destination des vinyles" />
-    <meta name="description" content="Découvrez notre politique de cookies pour comprendre comment SensVinylo utilise les cookies pour améliorer votre expérience utilisateur." />
+    <title>Politique de Cookies - SensVinylo</title>
+    <meta name="title" content="Politique de Cookies - SensVinylo" />
+    <meta name="description" content="Chez SensVinylo, nous utilisons des cookies et des technologies similaires pour améliorer votre expérience utilisateur sur notre site. Cette politique de cookies explique ce que sont les cookies, comment nous les utilisons et les choix dont vous disposez concernant leur utilisation." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://sensvinylo-musique.tech/cookie_policy.php" />
-    <meta property="og:title" content="SensVinylo - Politique de Cookies | La destination des vinyles" />
-    <meta property="og:description" content="Découvrez notre politique de cookies pour comprendre comment SensVinylo utilise les cookies pour améliorer votre expérience utilisateur." />
-    <meta property="og:image" content="https://sensvinylo-musique.tech/assets/images/logo.webp" />
+    <meta property="og:title" content="Politique de Cookies - SensVinylo" />
+    <meta property="og:description" content="Chez SensVinylo, nous utilisons des cookies et des technologies similaires pour améliorer votre expérience utilisateur sur notre site. Cette politique de cookies explique ce que sont les cookies, comment nous les utilisons et les choix dont vous disposez concernant leur utilisation." />
+    <meta property="og:image" content="assets/images/logo.webp" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://sensvinylo-musique.tech/cookie_policy.php" />
-    <meta property="twitter:title" content="SensVinylo - Politique de Cookies | La destination des vinyles" />
-    <meta property="twitter:description" content="Découvrez notre politique de cookies pour comprendre comment SensVinylo utilise les cookies pour améliorer votre expérience utilisateur." />
-    <meta property="twitter:image" content="https://sensvinylo-musique.tech/assets/images/logo.webp" />
+    <meta property="twitter:title" content="Politique de Cookies - SensVinylo" />
+    <meta property="twitter:description" content="Chez SensVinylo, nous utilisons des cookies et des technologies similaires pour améliorer votre expérience utilisateur sur notre site. Cette politique de cookies explique ce que sont les cookies, comment nous les utilisons et les choix dont vous disposez concernant leur utilisation." />
+    <meta property="twitter:image" content="assets/images/logo.webp" />
 
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Politique de Cookies - SensVinylo",
+            "description": "Chez SensVinylo, nous utilisons des cookies et des technologies similaires pour améliorer votre expérience utilisateur sur notre site. Cette politique de cookies explique ce que sont les cookies, comment nous les utilisons et les choix dont vous disposez concernant leur utilisation.",
+            "url": "https://sensvinylo-musique.tech/cookie_policy.php",
+            "publisher": {
+                "@type": "Organization",
+                "name": "SensVinylo",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://sensvinylo-musique.tech/assets/images/logo.webp"
+                }
+            }
+        }
+    </script>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="canonical" href="https://sensvinylo-musique.tech/cookie_policy.php">
     <link rel="stylesheet" href="css/index.min.css" />

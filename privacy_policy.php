@@ -4,79 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Primary Meta Tags -->
-    <title>SensVinylo - Politique de Confidentialité | La destination des vinyles</title>
-    <meta name="title" content="SensVinylo - Politique de Confidentialité | La destination des vinyles" />
-    <meta name="description" content="Découvrez la politique de confidentialité de SensVinylo, votre destination pour les vinyles, conçue pour protéger vos données personnelles." />
+    <title>Sensvinylo - Politique de Confidentialité | Protégez vos informations</title>
+    <meta name="title" content="Sensvinylo - Politique de Confidentialité | Protégez vos informations" />
+    <meta name="description" content="Consultez la politique de confidentialité de Sensvinylo pour comprendre comment nous protégeons et utilisons vos informations personnelles." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://sensvinylo-musique.tech/privacy_policy.php" />
-    <meta property="og:title" content="SensVinylo - Politique de Confidentialité | La destination des vinyles" />
-    <meta property="og:description" content="Découvrez la politique de confidentialité de SensVinylo, votre destination pour les vinyles, conçue pour protéger vos données personnelles." />
-    <meta property="og:image" content="https://sensvinylo-musique.tech/assets/images/logo.webp" />
+    <meta property="og:title" content="Sensvinylo - Politique de Confidentialité | Protégez vos informations" />
+    <meta property="og:description" content="Consultez la politique de confidentialité de Sensvinylo pour comprendre comment nous protégeons et utilisons vos informations personnelles." />
+    <meta property="og:image" content="assets/images/logo.webp" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://sensvinylo-musique.tech/privacy_policy.php" />
-    <meta property="twitter:title" content="SensVinylo - Politique de Confidentialité | La destination des vinyles" />
-    <meta property="twitter:description" content="Découvrez la politique de confidentialité de SensVinylo, votre destination pour les vinyles, conçue pour protéger vos données personnelles." />
-    <meta property="twitter:image" content="https://sensvinylo-musique.tech/assets/images/logo.webp" />
+    <meta property="twitter:title" content="Sensvinylo - Politique de Confidentialité | Protégez vos informations" />
+    <meta property="twitter:description" content="Consultez la politique de confidentialité de Sensvinylo pour comprendre comment nous protégeons et utilisons vos informations personnelles." />
+    <meta property="twitter:image" content="assets/images/logo.webp" />
 
     <script type="application/ld+json">
-        [
-            {
-                "@context": "https://schema.org",
-                "@type": "Service",
-                "serviceType": "Consultation pour collectionneurs",
-                "provider": {
-                    "@type": "Organization",
-                    "name": "SensVinylo"
-                },
-                "availableChannel": {
-                    "@type": "ServiceChannel",
-                    "serviceUrl": "https://sensvinylo-musique.tech/privacy_policy.php"
-                }
-            },
-            {
-                "@context": "https://schema.org",
-                "@type": "Service",
-                "serviceType": "Restauration de vinyles",
-                "provider": {
-                    "@type": "Organization",
-                    "name": "SensVinylo"
-                },
-                "availableChannel": {
-                    "@type": "ServiceChannel",
-                    "serviceUrl": "https://sensvinylo-musique.tech/privacy_policy.php"
-                }
-            },
-            {
-                "@context": "https://schema.org",
-                "@type": "Service",
-                "serviceType": "Vente de vinyles exclusifs",
-                "provider": {
-                    "@type": "Organization",
-                    "name": "SensVinylo"
-                },
-                "availableChannel": {
-                    "@type": "ServiceChannel",
-                    "serviceUrl": "https://sensvinylo-musique.tech/privacy_policy.php"
-                }
-            },
-            {
-                "@context": "https://schema.org",
-                "@type": "Service",
-                "serviceType": "Événements et écoutes",
-                "provider": {
-                    "@type": "Organization",
-                    "name": "SensVinylo"
-                },
-                "availableChannel": {
-                    "@type": "ServiceChannel",
-                    "serviceUrl": "https://sensvinylo-musique.tech/privacy_policy.php"
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Sensvinylo - Politique de Confidentialité | Protégez vos informations",
+            "description": "Consultez la politique de confidentialité de Sensvinylo pour comprendre comment nous protégeons et utilisons vos informations personnelles.",
+            "url": "https://sensvinylo-musique.tech/privacy_policy.php",
+            "publisher": {
+                "@type": "Organization",
+                "name": "Sensvinylo",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://sensvinylo-musique.tech/assets/images/logo.webp"
                 }
             }
-        ]
+        }
     </script>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="canonical" href="https://sensvinylo-musique.tech/privacy_policy.php">
