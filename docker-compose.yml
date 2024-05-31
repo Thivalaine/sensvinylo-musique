@@ -19,6 +19,7 @@ services:
     image: phpmyadmin/phpmyadmin
     environment:
       PMA_HOST: ${PMA_HOST}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       PMA_USER: ${PMA_USER}
       PMA_PASSWORD: ${PMA_PASSWORD}
     ports:
