@@ -8,18 +8,19 @@ services:
       - db
   db:
     image: mysql:8.0
-    env_file:
-      - .env.local
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
     volumes:
       - ./dbdata:/var/lib/mysql
-    restart: always
     ports:
       - "3307:3306"
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
-    env_file:
-      - .env.local
-    restart: always
+    environment:
+      PMA_HOST: ${PMA_HOST}
+      PMA_USER: ${PMA_USER}
+      PMA_PASSWORD: ${PMA_PASSWORD}
     ports:
       - "8082:80"
     depends_on:
