@@ -12,12 +12,14 @@ services:
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_DATABASE: ${MYSQL_DATABASE}
+    restart: always
     volumes:
       - ./dbdata:/var/lib/mysql
     ports:
       - "3307:3306"
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
+    restart: always
     environment:
       PMA_HOST: ${PMA_HOST}
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
