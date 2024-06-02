@@ -67,7 +67,7 @@
                         <div class="collectionItemDetails">
                             <h2><?= $item['title'] ?></h2>
                             <p><?= $item['price'] ?>$</p>
-                            <a href="item.php?id=<?= $item['id'] ?>" class="link">Voir plus</a>
+                            <a href="#" class="link">Voir plus</a>
                         </div>
                     </article>
                 <?php
