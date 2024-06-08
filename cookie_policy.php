@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Primary Meta Tags -->
-    <title>Politique de Cookies - SensVinylo</title>
-    <meta name="title" content="Politique de Cookies - SensVinylo" />
+    <title>Sensvinylo - Politique de Cookies | Vos informations</title>
+    <meta name="title" content="Sensvinylo - Politique de Cookies | Vos informations" />
     <meta name="description" content="Chez SensVinylo, nous utilisons des cookies et des technologies similaires pour améliorer votre expérience utilisateur sur notre site. Cette politique de cookies explique ce que sont les cookies, comment nous les utilisons et les choix dont vous disposez concernant leur utilisation." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://sensvinylo-musique.tech/cookie_policy.php" />
-    <meta property="og:title" content="Politique de Cookies - SensVinylo" />
+    <meta property="og:title" content="Sensvinylo - Politique de Cookies | Vos informations" />
     <meta property="og:description" content="Chez SensVinylo, nous utilisons des cookies et des technologies similaires pour améliorer votre expérience utilisateur sur notre site. Cette politique de cookies explique ce que sont les cookies, comment nous les utilisons et les choix dont vous disposez concernant leur utilisation." />
     <meta property="og:image" content="assets/images/logo.webp" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://sensvinylo-musique.tech/cookie_policy.php" />
-    <meta property="twitter:title" content="Politique de Cookies - SensVinylo" />
+    <meta property="twitter:title" content="Sensvinylo - Politique de Cookies | Vos informations" />
     <meta property="twitter:description" content="Chez SensVinylo, nous utilisons des cookies et des technologies similaires pour améliorer votre expérience utilisateur sur notre site. Cette politique de cookies explique ce que sont les cookies, comment nous les utilisons et les choix dont vous disposez concernant leur utilisation." />
     <meta property="twitter:image" content="assets/images/logo.webp" />
 
@@ -26,7 +26,7 @@
         {
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Politique de Cookies - SensVinylo",
+            "name": "Sensvinylo - Politique de Cookies | Vos informations",
             "description": "Chez SensVinylo, nous utilisons des cookies et des technologies similaires pour améliorer votre expérience utilisateur sur notre site. Cette politique de cookies explique ce que sont les cookies, comment nous les utilisons et les choix dont vous disposez concernant leur utilisation.",
             "url": "https://sensvinylo-musique.tech/cookie_policy.php",
             "publisher": {
@@ -51,7 +51,7 @@
     <?php include 'header.php'; ?>
     <main class="blogContainer">
         <section>
-            <h1>Politique de Cookies - SensVinylo</h1>
+            <h1>Sensvinylo - Politique de Cookies | Vos informations</h1>
 
             <p>Chez SensVinylo, nous utilisons des cookies et des technologies similaires pour améliorer votre expérience utilisateur sur notre site. Cette politique de cookies explique ce que sont les cookies, comment nous les utilisons et les choix dont vous disposez concernant leur utilisation.</p>
 

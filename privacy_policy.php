@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Primary Meta Tags -->
-    <title>Sensvinylo - Politique de Confidentialité | Protégez vos informations</title>
-    <meta name="title" content="Sensvinylo - Politique de Confidentialité | Protégez vos informations" />
+    <title>Sensvinylo - Politique de Confidentialité | Vos informations</title>
+    <meta name="title" content="Sensvinylo - Politique de Confidentialité | Vos informations" />
     <meta name="description" content="Consultez la politique de confidentialité de Sensvinylo pour comprendre comment nous protégeons et utilisons vos informations personnelles." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://sensvinylo-musique.tech/privacy_policy.php" />
-    <meta property="og:title" content="Sensvinylo - Politique de Confidentialité | Protégez vos informations" />
+    <meta property="og:title" content="Sensvinylo - Politique de Confidentialité | Vos informations" />
     <meta property="og:description" content="Consultez la politique de confidentialité de Sensvinylo pour comprendre comment nous protégeons et utilisons vos informations personnelles." />
     <meta property="og:image" content="assets/images/logo.webp" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://sensvinylo-musique.tech/privacy_policy.php" />
-    <meta property="twitter:title" content="Sensvinylo - Politique de Confidentialité | Protégez vos informations" />
+    <meta property="twitter:title" content="Sensvinylo - Politique de Confidentialité | Vos informations" />
     <meta property="twitter:description" content="Consultez la politique de confidentialité de Sensvinylo pour comprendre comment nous protégeons et utilisons vos informations personnelles." />
     <meta property="twitter:image" content="assets/images/logo.webp" />
 
@@ -26,7 +26,7 @@
         {
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Sensvinylo - Politique de Confidentialité | Protégez vos informations",
+            "name": "Sensvinylo - Politique de Confidentialité | Vos informations",
             "description": "Consultez la politique de confidentialité de Sensvinylo pour comprendre comment nous protégeons et utilisons vos informations personnelles.",
             "url": "https://sensvinylo-musique.tech/privacy_policy.php",
             "publisher": {

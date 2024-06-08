@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Primary Meta Tags -->
-    <title>Sensvinylo - Article</title>
-    <meta name="title" content="Sensvinylo - Article" />
+    <title>Sensvinylo - Article | Votre histoire</title>
+    <meta name="title" content="Sensvinylo - Article | Votre histoire" />
     <meta name="description" content="Découvrez un article passionnant sur Sensvinylo. Explorez les détails et les histoires derrière vos vinyles préférés." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://sensvinylo-musique.tech/article.php" />
-    <meta property="og:title" content="Sensvinylo - Article" />
+    <meta property="og:title" content="Sensvinylo - Article | Votre histoire" />
     <meta property="og:description" content="Découvrez un article passionnant sur Sensvinylo. Explorez les détails et les histoires derrière vos vinyles préférés." />
     <meta property="og:image" content="assets/images/logo.webp" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://sensvinylo-musique.tech/article.php" />
-    <meta property="twitter:title" content="Sensvinylo - Article" />
+    <meta property="twitter:title" content="Sensvinylo - Article | Votre histoire" />
     <meta property="twitter:description" content="Découvrez un article passionnant sur Sensvinylo. Explorez les détails et les histoires derrière vos vinyles préférés." />
     <meta property="twitter:image" content="assets/images/logo.webp" />
 

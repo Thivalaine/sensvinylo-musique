@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Primary Meta Tags -->
-    <title>Sensvinylo - Collection | Découvrez notre sélection de vinyles</title>
-    <meta name="title" content="Sensvinylo - Collection | Découvrez notre sélection de vinyles" />
+    <title>Sensvinylo - Collection | Notre sélection de vinyles</title>
+    <meta name="title" content="Sensvinylo - Collection | Notre sélection de vinyles" />
     <meta name="description" content="Explorez la collection de vinyles de Sensvinylo. Trouvez des éditions rares et des classiques intemporels pour enrichir votre collection." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://sensvinylo-musique.tech/collection.php" />
-    <meta property="og:title" content="Sensvinylo - Collection | Découvrez notre sélection de vinyles" />
+    <meta property="og:title" content="Sensvinylo - Collection | Notre sélection de vinyles" />
     <meta property="og:description" content="Explorez la collection de vinyles de Sensvinylo. Trouvez des éditions rares et des classiques intemporels pour enrichir votre collection." />
     <meta property="og:image" content="assets/images/logo.webp" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://sensvinylo-musique.tech/collection.php" />
-    <meta property="twitter:title" content="Sensvinylo - Collection | Découvrez notre sélection de vinyles" />
+    <meta property="twitter:title" content="Sensvinylo - Collection | Notre sélection de vinyles" />
     <meta property="twitter:description" content="Explorez la collection de vinyles de Sensvinylo. Trouvez des éditions rares et des classiques intemporels pour enrichir votre collection." />
     <meta property="twitter:image" content="assets/images/logo.webp" />
 
@@ -26,7 +26,7 @@
         {
             "@context": "https://schema.org",
             "@type": "CollectionPage",
-            "name": "Sensvinylo - Collection | Découvrez notre sélection de vinyles",
+            "name": "Sensvinylo - Collection | Notre sélection de vinyles",
             "description": "Explorez la collection de vinyles de Sensvinylo. Trouvez des éditions rares et des classiques intemporels pour enrichir votre collection.",
             "url": "https://sensvinylo-musique.tech/collection.php",
             "publisher": {
