@@ -15,6 +15,7 @@ services:
     restart: always
     volumes:
       - ./dbdata:/var/lib/mysql
+    command: --max-allowed-packet=64M --wait-timeout=28800 --interactive-timeout=28800
     ports:
       - "3307:3306"
   phpmyadmin:
