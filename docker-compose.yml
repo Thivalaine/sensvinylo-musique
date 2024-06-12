@@ -29,14 +29,13 @@ services:
     depends_on:
       - db
   cron:
-    image: crazymax/cron
+    build: .
     container_name: cron_container
     environment:
       - TZ=Europe/Paris
     volumes:
-      - ./cronjobs:/etc/cron.d
       - /var/run/docker.sock:/var/run/docker.sock
-      - ./restart_docker_compose.sh:/etc/cron.d/restart_docker_compose.sh
+      - ./restart_docker_compose.sh:/usr/local/bin/restart_docker_compose.sh
       - /etc/localtime:/etc/localtime:ro
     restart: unless-stopped
 
