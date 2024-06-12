@@ -14,7 +14,7 @@ services:
       MYSQL_DATABASE: ${MYSQL_DATABASE}
     restart: always
     volumes:
-      - dbdata:/var/lib/mysql
+      - ./dbdata:/var/lib/mysql
     command: --max-allowed-packet=64M --wait-timeout=28800 --interactive-timeout=28800
     ports:
       - "3307:3306"
@@ -28,16 +28,5 @@ services:
       - "8082:80"
     depends_on:
       - db
-  cron:
-    build: .
-    container_name: cron_container
-    environment:
-      - TZ=Europe/Paris
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-      - ./restart_docker_compose.sh:/usr/local/bin/restart_docker_compose.sh
-      - /etc/localtime:/etc/localtime:ro
-    restart: unless-stopped
-
 volumes:
   dbdata:
