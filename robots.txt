@@ -1,7 +1,14 @@
+# Bloque Googlebot d'accéder à /nogooglebot/
 User-agent: Googlebot
 Disallow: /nogooglebot/
 
+# Bloque Bingbot d'accéder à /nobingbot/
+User-agent: Bingbot
+Disallow: /nobingbot/
+
+# Directives générales pour tous les autres bots
 User-agent: *
 Allow: /
 
+# Lien vers le fichier sitemap
 Sitemap: https://sensvinylo-musique.tech/sitemap.xml
