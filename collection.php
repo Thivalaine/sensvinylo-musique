@@ -70,7 +70,7 @@
                 foreach ($items as $item) {
                 ?>
                     <article class="collectionItem">
-                        <img src="<?= $item['illustration'] ?>" alt="Sensvinylo - <?= $item['title'] ?>">
+                        <img src="<?= $item['illustration'] ?>" alt="Sensvinylo - <?= $item['title'] ?>" title="Sensvinylo - <?= $item['title'] ?>" />
                         <div class="collectionItemDetails">
                             <h2><?= $item['title'] ?></h2>
                             <p><?= $item['price'] ?>$</p>

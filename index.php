@@ -105,7 +105,7 @@
             <a class="buttonDetails" href="collection.php">Voir notre collection</a>
         </div>
         <div class="descriptionRight">
-            <img src="assets/images/description.webp" alt="Collection de vinyles Sensvinylo">
+            <img src="assets/images/description.webp" alt="Collection de vinyles Sensvinylo" title="Collection de vinyles Sensvinylo">
         </div>
     </section>
     <section class="question">

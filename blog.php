@@ -83,7 +83,7 @@
                 ?>
                 <article class="article" id="1">
                     <header class="articleHeader">
-                        <img class="illustration" src="<?php echo $article['illustration']; ?>" alt="Sensvinylo - <?php echo $article['title']; ?>" />
+                        <img class="illustration" src="<?php echo $article['illustration']; ?>" alt="Sensvinylo - <?php echo $article['title']; ?>" title="Sensvinylo - <?php echo $article['title']; ?>" />
                     </header>
                     <div class="articleContent">
                         <h2><?php echo $article['title']; ?></h2>

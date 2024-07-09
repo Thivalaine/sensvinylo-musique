@@ -77,7 +77,7 @@
             </div>
         </div>
         <div class="aboutImage">
-            <img src="assets/images/philosophie.webp" alt="Vinyles Sensvinylo" />
+            <img src="assets/images/philosophie.webp" alt="Vinyles Sensvinylo" title="Vinyles Sensvinylo">
         </div>
     </section>
     <section class="aboutContent">
@@ -85,17 +85,17 @@
             <h2>Notre Équipe</h2>
             <div class="teamContainer">
                 <div class="teamMember">
-                    <img src="assets/images/about/Jean_Dupont.jpg" alt="Sensvinylo - Photo de Jean Dupont">
+                    <img src="assets/images/about/Jean_Dupont.jpg" alt="Sensvinylo - Photo de Jean Dupont" title="Jean Dupont">
                     <h3>Jean Dupont</h3>
                     <p>Fondateur & CEO</p>
                 </div>
                 <div class="teamMember">
-                    <img src="assets/images/about/Marie_dubois.jpg" alt="Sensvinylo - Photo de Marie Dubois">
+                    <img src="assets/images/about/Marie_dubois.jpg" alt="Sensvinylo - Photo de Marie Dubois" title="Marie Dubois">
                     <h3>Marie Dubois</h3>
                     <p>Responsable Marketing</p>
                 </div>
                 <div class="teamMember">
-                    <img src="assets/images/about/Paul_martin.jpg" alt="Sensvinylo - Photo de Paul Martin">
+                    <img src="assets/images/about/Paul_martin.jpg" alt="Sensvinylo - Photo de Paul Martin" title="Paul Martin">
                     <h3>Paul Martin</h3>
                     <p>Expert Vinyles</p>
                 </div>
