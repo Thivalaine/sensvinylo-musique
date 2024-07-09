@@ -1,8 +1,8 @@
 User-agent: Googlebot
-Disallow: /
+Disallow: /nogooglebot/
 
 User-agent: Bingbot
-Disallow: /
+Disallow: /nobingbot/
 
 User-agent: *
 Allow: /
