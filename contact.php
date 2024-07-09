@@ -18,6 +18,7 @@
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://sensvinylo-musique.tech/contact.php" />
+    <meta property="twitter:site" content="@sensvinylo" />
     <meta property="twitter:title" content="Sensvinylo - Contactez-nous | Votre source de vinyles" />
     <meta property="twitter:description" content="Contactez Sensvinylo pour toute question ou demande concernant notre collection de vinyles. Nous sommes là pour vous aider." />
     <meta property="twitter:image" content="assets/images/logo.webp" />

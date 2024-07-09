@@ -18,6 +18,7 @@
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://sensvinylo-musique.tech/article.php" />
+    <meta property="twitter:site" content="@sensvinylo" />
     <meta property="twitter:title" content="Sensvinylo - Article | Votre histoire" />
     <meta property="twitter:description" content="Découvrez un article passionnant sur Sensvinylo. Explorez les détails et les histoires derrière vos vinyles préférés." />
     <meta property="twitter:image" content="assets/images/logo.webp" />

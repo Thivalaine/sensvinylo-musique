@@ -18,6 +18,7 @@
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://sensvinylo-musique.tech/terms_of_use.php" />
+    <meta property="twitter:site" content="@sensvinylo" />
     <meta property="twitter:title" content="Sensvinylo - Conditions d'Utilisation | Règles et Politiques" />
     <meta property="twitter:description" content="Lisez les conditions d'utilisation de Sensvinylo. Découvrez nos règles et politiques pour une utilisation optimale de notre site et de nos services." />
     <meta property="twitter:image" content="assets/images/logo.webp" />

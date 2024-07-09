@@ -18,6 +18,7 @@
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://sensvinylo-musique.tech/privacy_policy.php" />
+    <meta property="twitter:site" content="@sensvinylo" />
     <meta property="twitter:title" content="Sensvinylo - Politique de Confidentialité | Vos informations" />
     <meta property="twitter:description" content="Consultez la politique de confidentialité de Sensvinylo pour comprendre comment nous protégeons et utilisons vos informations personnelles." />
     <meta property="twitter:image" content="assets/images/logo.webp" />

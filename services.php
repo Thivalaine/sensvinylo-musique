@@ -18,6 +18,7 @@
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://sensvinylo-musique.tech/services.php" />
+    <meta property="twitter:site" content="@sensvinylo" />
     <meta property="twitter:title" content="Sensvinylo - Services offerts | La destination des vinyles" />
     <meta property="twitter:description" content="Découvrez les services de Sensvinylo, votre destination pour les vinyles, conçus pour les amateurs et les collectionneurs chevronnés." />
     <meta property="twitter:image" content="assets/images/logo.webp" />

@@ -18,6 +18,7 @@
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://sensvinylo-musique.tech/cookie_policy.php" />
+    <meta property="twitter:site" content="@sensvinylo" />
     <meta property="twitter:title" content="Sensvinylo - Politique de Cookies | Vos informations" />
     <meta property="twitter:description" content="Chez SensVinylo, nous utilisons des cookies et des technologies similaires pour améliorer votre expérience utilisateur sur notre site. Cette politique de cookies explique ce que sont les cookies, comment nous les utilisons et les choix dont vous disposez concernant leur utilisation." />
     <meta property="twitter:image" content="assets/images/logo.webp" />
