@@ -6,8 +6,6 @@ services:
       - ./sensvinylo-musique:/sensvinylo-musique
     depends_on:
       - db
-    mem_limit: 512M
-    cpus: '0.5'
 
   db:
     image: mysql:8.0
@@ -21,8 +19,6 @@ services:
     command: --max-allowed-packet=64M --wait-timeout=28800 --interactive-timeout=28800
     ports:
       - "3307:3306"
-    mem_limit: 1G
-    cpus: '1.0'
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
@@ -34,8 +30,6 @@ services:
       - "8082:80"
     depends_on:
       - db
-    mem_limit: 256M
-    cpus: '0.25'
 
 volumes:
   dbdata:
