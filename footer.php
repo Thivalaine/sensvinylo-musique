@@ -46,17 +46,16 @@
     <div class="footerRight">
         <ul class="list">
             <li class="listTitle">Fonctionnalités</li>
-            <li><a href="#">Quelque chose de génial</a></li>
-            <li><a href="#">Autre chose</a></li>
-            <li><a href="#">Tant de fonctionnalités</a></li>
-            <li><a href="#">C'est incroyable</a></li>
+            <li>Quelque chose de génial</li>
+            <li>Autre chose</li>
+            <li>Tant de fonctionnalités</li>
+            <li>C'est incroyable</li>
         </ul>
         <ul class="list">
             <li class="listTitle">Entreprise</li>
             <li><a href="blog.php">Blog</a></li>
             <li><a href="about.php">À propos de nous</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Emplois</a></li>
+            <li><a href="contact.php">Contact</a></li>
         </ul>
         <ul class="list">
             <li class="listTitle">Juridique</li>

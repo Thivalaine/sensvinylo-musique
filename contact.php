@@ -89,7 +89,7 @@
         </section>
         <section class="contactInfo">
             <h2>Informations de Contact Sensvinylo</h2>
-            <p><strong>Adresse :</strong> 123 Rue de la Musique, Paris, France</p>
+            <p><strong>Adresse :</strong> Av. des Champs-Élysées, 75008 Paris, France</p>
             <p><strong>Téléphone :</strong> +33 1 23 45 67 89</p>
             <p><strong>Email:</strong> contact@sensvinylo.com</p>
         </section>
